@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\tagliatorewebapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\tagliatorewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\tagliatorewebapp\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|e:\\isil\\2024-ll\\aplicaciones 1\\final\\definitivo\\tagliatorewebapp\\tagliatorewebapp\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\tagliatorewebapp\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\tagliatorewebapp\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\tagliatorewebapp\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\tagliatorewebapp\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\tagliatorewebapp\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A57DA47C-C626-4BDA-B609-A5064DE72FDE}|TagliatoreWebApp\\TagliatoreWebApp.csproj|solutionrelative:tagliatorewebapp\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "TagliatoreWebApp\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:59:02.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\App_Start\\BundleConfig.cs",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "TagliatoreWebApp\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:58:58.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.css",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Content\\Site.css",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Content\\Site.css",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Content\\Site.css",
+              "RelativeToolTip": "TagliatoreWebApp\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-18T23:58:53.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TagliatoreWebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:58:43.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:36:08.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:24:22.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:24:20.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:04:46.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:04:14.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Users\\Create.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:03:52.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T22:13:28.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Users\\Details.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:03:37.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Users\\Index.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:03:13.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T22:09:48.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T22:06:18.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "TagliatoreWebApp\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T22:04:24.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:50:12.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TagliatoreWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Isil\\2024-ll\\Aplicaciones 1\\final\\definitivo\\TagliatoreWebApp\\TagliatoreWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TagliatoreWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T23:36:09.382Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

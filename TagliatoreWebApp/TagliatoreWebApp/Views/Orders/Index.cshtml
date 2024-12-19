@@ -1,0 +1,63 @@
+﻿@model IEnumerable<TagliatoreWebApp.Models.Ordenes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista de órdenes</h2>
+
+<p>
+    @Html.ActionLink("Crear nueva orden", "Create","", new {@class = "btn btn-success"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_orden)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_cliente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_mesero)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_mesa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_orden)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_orden)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_cliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_mesero)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_mesa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_orden)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.id_orden}, new {@class = "btn btn-success"}) |
+            @Html.ActionLink("Detalles", "Details", new { id = item.id_orden }, new { @class = "btn btn-primary" }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id = item.id_orden }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

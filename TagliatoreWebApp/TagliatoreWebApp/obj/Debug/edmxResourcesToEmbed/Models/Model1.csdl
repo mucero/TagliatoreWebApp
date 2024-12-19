@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbModels" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="dni" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="fecha_actualizacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Ordenes" Relationship="Self.FK__Ordenes__id_clie__5FB337D6" FromRole="Clientes" ToRole="Ordenes" />
+  </EntityType>
+  <EntityType Name="DetalleOrdenes">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_orden" Type="Int32" Nullable="false" />
+    <Property Name="id_platillo" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" Nullable="false" />
+    <Property Name="precio_unitario" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Ordenes" Relationship="Self.FK__DetalleOr__id_or__6383C8BA" FromRole="DetalleOrdenes" ToRole="Ordenes" />
+    <NavigationProperty Name="Platillos" Relationship="Self.FK__DetalleOr__id_pl__6477ECF3" FromRole="DetalleOrdenes" ToRole="Platillos" />
+  </EntityType>
+  <EntityType Name="Meseros">
+    <Key>
+      <PropertyRef Name="id_mesero" />
+    </Key>
+    <Property Name="id_mesero" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="estado" Type="Boolean" />
+    <Property Name="fecha_registro" Type="DateTime" Precision="3" />
+    <Property Name="fecha_actualizacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Ordenes" Relationship="Self.FK__Ordenes__id_mese__60A75C0F" FromRole="Meseros" ToRole="Ordenes" />
+  </EntityType>
+  <EntityType Name="Ordenes">
+    <Key>
+      <PropertyRef Name="id_orden" />
+    </Key>
+    <Property Name="id_orden" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_cliente" Type="Int32" />
+    <Property Name="id_mesero" Type="Int32" />
+    <Property Name="id_mesa" Type="Int32" Nullable="false" />
+    <Property Name="estado" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="fecha_orden" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK__Ordenes__id_clie__5FB337D6" FromRole="Ordenes" ToRole="Clientes" />
+    <NavigationProperty Name="DetalleOrdenes" Relationship="Self.FK__DetalleOr__id_or__6383C8BA" FromRole="Ordenes" ToRole="DetalleOrdenes" />
+    <NavigationProperty Name="Meseros" Relationship="Self.FK__Ordenes__id_mese__60A75C0F" FromRole="Ordenes" ToRole="Meseros" />
+  </EntityType>
+  <EntityType Name="Platillos">
+    <Key>
+      <PropertyRef Name="id_platillo" />
+    </Key>
+    <Property Name="id_platillo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ingredientes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="imagen_url" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_creacion" Type="DateTime" Precision="3" />
+    <Property Name="fecha_actualizacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="DetalleOrdenes" Relationship="Self.FK__DetalleOr__id_pl__6477ECF3" FromRole="Platillos" ToRole="DetalleOrdenes" />
+  </EntityType>
+  <Association Name="FK__Ordenes__id_clie__5FB337D6">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="0..1" />
+    <End Role="Ordenes" Type="Self.Ordenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="Ordenes">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleOr__id_or__6383C8BA">
+    <End Role="Ordenes" Type="Self.Ordenes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetalleOrdenes" Type="Self.DetalleOrdenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ordenes">
+        <PropertyRef Name="id_orden" />
+      </Principal>
+      <Dependent Role="DetalleOrdenes">
+        <PropertyRef Name="id_orden" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleOr__id_pl__6477ECF3">
+    <End Role="Platillos" Type="Self.Platillos" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetalleOrdenes" Type="Self.DetalleOrdenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Platillos">
+        <PropertyRef Name="id_platillo" />
+      </Principal>
+      <Dependent Role="DetalleOrdenes">
+        <PropertyRef Name="id_platillo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ordenes__id_mese__60A75C0F">
+    <End Role="Meseros" Type="Self.Meseros" Multiplicity="0..1" />
+    <End Role="Ordenes" Type="Self.Ordenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meseros">
+        <PropertyRef Name="id_mesero" />
+      </Principal>
+      <Dependent Role="Ordenes">
+        <PropertyRef Name="id_mesero" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbTagliatore" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="DetalleOrdenes" EntityType="Self.DetalleOrdenes" />
+    <EntitySet Name="Meseros" EntityType="Self.Meseros" />
+    <EntitySet Name="Ordenes" EntityType="Self.Ordenes" />
+    <EntitySet Name="Platillos" EntityType="Self.Platillos" />
+    <AssociationSet Name="FK__Ordenes__id_clie__5FB337D6" Association="Self.FK__Ordenes__id_clie__5FB337D6">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Ordenes" EntitySet="Ordenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleOr__id_or__6383C8BA" Association="Self.FK__DetalleOr__id_or__6383C8BA">
+      <End Role="Ordenes" EntitySet="Ordenes" />
+      <End Role="DetalleOrdenes" EntitySet="DetalleOrdenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleOr__id_pl__6477ECF3" Association="Self.FK__DetalleOr__id_pl__6477ECF3">
+      <End Role="Platillos" EntitySet="Platillos" />
+      <End Role="DetalleOrdenes" EntitySet="DetalleOrdenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ordenes__id_mese__60A75C0F" Association="Self.FK__Ordenes__id_mese__60A75C0F">
+      <End Role="Meseros" EntitySet="Meseros" />
+      <End Role="Ordenes" EntitySet="Ordenes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbModels.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="correo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="telefono" Type="varchar" MaxLength="15" />
+    <Property Name="dni" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="fecha_registro" Type="datetime" />
+    <Property Name="fecha_actualizacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DetalleOrdenes">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_orden" Type="int" Nullable="false" />
+    <Property Name="id_platillo" Type="int" Nullable="false" />
+    <Property Name="cantidad" Type="int" Nullable="false" />
+    <Property Name="precio_unitario" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Meseros">
+    <Key>
+      <PropertyRef Name="id_mesero" />
+    </Key>
+    <Property Name="id_mesero" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="correo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="telefono" Type="varchar" MaxLength="15" />
+    <Property Name="estado" Type="bit" />
+    <Property Name="fecha_registro" Type="datetime" />
+    <Property Name="fecha_actualizacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Ordenes">
+    <Key>
+      <PropertyRef Name="id_orden" />
+    </Key>
+    <Property Name="id_orden" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_cliente" Type="int" />
+    <Property Name="id_mesero" Type="int" />
+    <Property Name="id_mesa" Type="int" Nullable="false" />
+    <Property Name="estado" Type="nvarchar" MaxLength="20" />
+    <Property Name="fecha_orden" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Platillos">
+    <Key>
+      <PropertyRef Name="id_platillo" />
+    </Key>
+    <Property Name="id_platillo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ingredientes" Type="text" Nullable="false" />
+    <Property Name="precio" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="imagen_url" Type="varchar" MaxLength="255" />
+    <Property Name="fecha_creacion" Type="datetime" />
+    <Property Name="fecha_actualizacion" Type="datetime" />
+  </EntityType>
+  <Association Name="FK__DetalleOr__id_or__6383C8BA">
+    <End Role="Ordenes" Type="Self.Ordenes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetalleOrdenes" Type="Self.DetalleOrdenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ordenes">
+        <PropertyRef Name="id_orden" />
+      </Principal>
+      <Dependent Role="DetalleOrdenes">
+        <PropertyRef Name="id_orden" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetalleOr__id_pl__6477ECF3">
+    <End Role="Platillos" Type="Self.Platillos" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetalleOrdenes" Type="Self.DetalleOrdenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Platillos">
+        <PropertyRef Name="id_platillo" />
+      </Principal>
+      <Dependent Role="DetalleOrdenes">
+        <PropertyRef Name="id_platillo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ordenes__id_clie__5FB337D6">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="0..1" />
+    <End Role="Ordenes" Type="Self.Ordenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="Ordenes">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ordenes__id_mese__60A75C0F">
+    <End Role="Meseros" Type="Self.Meseros" Multiplicity="0..1" />
+    <End Role="Ordenes" Type="Self.Ordenes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meseros">
+        <PropertyRef Name="id_mesero" />
+      </Principal>
+      <Dependent Role="Ordenes">
+        <PropertyRef Name="id_mesero" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbModelsStoreContainer">
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetalleOrdenes" EntityType="Self.DetalleOrdenes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Meseros" EntityType="Self.Meseros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ordenes" EntityType="Self.Ordenes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Platillos" EntityType="Self.Platillos" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DetalleOr__id_or__6383C8BA" Association="Self.FK__DetalleOr__id_or__6383C8BA">
+      <End Role="Ordenes" EntitySet="Ordenes" />
+      <End Role="DetalleOrdenes" EntitySet="DetalleOrdenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetalleOr__id_pl__6477ECF3" Association="Self.FK__DetalleOr__id_pl__6477ECF3">
+      <End Role="Platillos" EntitySet="Platillos" />
+      <End Role="DetalleOrdenes" EntitySet="DetalleOrdenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ordenes__id_clie__5FB337D6" Association="Self.FK__Ordenes__id_clie__5FB337D6">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Ordenes" EntitySet="Ordenes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ordenes__id_mese__60A75C0F" Association="Self.FK__Ordenes__id_mese__60A75C0F">
+      <End Role="Meseros" EntitySet="Meseros" />
+      <End Role="Ordenes" EntitySet="Ordenes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

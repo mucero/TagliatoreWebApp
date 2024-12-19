@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4ee501c1cf4f4dea97ef3d30c5cdf832" Name="Diagram1">
+        <EntityTypeShape EntityType="DbModels.Clientes" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModels.DetalleOrdenes" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModels.Meseros" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModels.Ordenes" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModels.Platillos" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="DbModels.FK__Ordenes__id_clie__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModels.FK__DetalleOr__id_or__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModels.FK__DetalleOr__id_pl__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModels.FK__Ordenes__id_mese__60A75C0F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
